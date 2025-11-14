@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>GÜZEL KIZIM HELİN 💌</title>
+<style>
+  :root{
+    --bg1:#fff0f2;
+    --bg2:#ffe6ea;
+    --accent:#6b021a;
+    --muted:#4d0000;
+  }
+  html,body{height:100%;margin:0;font-family:Arial, Helvetica, sans-serif;background:linear-gradient(180deg,var(--bg1),var(--bg2));color:var(--muted);-webkit-font-smoothing:antialiased}
+  /* Overlay (şifre ekranı) */
+  .pw-overlay{
+    position:fixed;inset:0;display:flex;align-items:center;justify-content:center;
+    background:rgba(0,0,0,0.6);z-index:9999;padding:20px;
+  }
+  .pw-box{
+    width:100%;max-width:420px;background:#fff;border-radius:12px;padding:28px;box-shadow:0 10px 30px rgba(0,0,0,0.4);text-align:center;
+  }
+  .pw-box h2{margin:0 0 10px;font-size:1.4rem;color:var(--accent)}
+  .pw-box p{margin:0 0 18px;font-size:0.95rem;color:#333}
+  .pw-input{width:100%;padding:12px 14px;border-radius:10px;border:1px solid #ddd;font-size:1rem;margin-bottom:12px;box-sizing:border-box}
+  .pw-btn{display:inline-block;padding:10px 18px;border-radius:10px;border:0;background:var(--accent);color:#fff;font-weight:600;cursor:pointer}
+  .pw-error{color:#b40000;margin-top:8px;font-size:0.9rem;min-height:1.2em}
+
+  /* İçerik */
+  header {text-align:center;padding:50px 20px 20px 20px}
+  header h1 {font-size:2.4rem;margin-bottom:12px;letter-spacing:1px;color:var(--accent)}
+  header p {max-width:900px;margin:0 auto;font-size:1.05rem;white-space:pre-line;line-height:1.6;padding:0 12px}
+
+  .gallery{display:flex;flex-direction:column;align-items:flex-start;padding:40px 20px;gap:48px;max-width:1100px;margin:0 auto}
+  .photo-block{display:flex;gap:22px;align-items:flex-start}
+  .photo-block img{width:320px;max-width:38vw;height:auto;border-radius:12px;object-fit:cover;box-shadow:0 8px 22px rgba(0,0,0,0.25)}
+  .photo-text{max-width:calc(100% - 360px);font-size:1.05rem;color:var(--muted);white-space:pre-line}
+
+  @media(max-width:900px){
+    header h1{font-size:2rem}
+    .photo-block{flex-direction:column;align-items:center}
+    .photo-block img{width:92%;max-width:420px}
+    .photo-text{max-width:92%;text-align:center}
+    header p{padding:0 12px}
+  }
+</style>
+</head>
+<body>
+
+<!-- Şifre overlay -->
+<div id="pwOverlay" class="pw-overlay" aria-hidden="false">
+  <div class="pw-box" role="dialog" aria-labelledby="pwTitle">
+    <h2 id="pwTitle">Sayfaya giriş için şifre</h2>
+    <p>Bu sayfayı görüntülemek için lütfen şifreyi gir.</p>
+    <input id="pwInput" class="pw-input" type="password" placeholder="Şifreyi gir" autocomplete="off" />
+    <div>
+      <button id="pwBtn" class="pw-btn">Giriş</button>
+    </div>
+    <div id="pwError" class="pw-error"></div>
+    <div style="margin-top:12px;font-size:0.85rem;color:#666">İpucu: sana verilen şifreyi kullan.</div>
+  </div>
+</div>
+
+<!-- Gerçek içerik (başlangıçta görünür ama overlay ile kapatıldı) -->
+<div id="content" aria-hidden="true">
+  <header>
+    <h1>GÜZEL KIZIM HELİN 💌</h1>
+    <p>
+Dört yıl boyunca hayatımızın içinde defalarca ayrılıp barıştık. Her seferinde kalbimiz biraz daha yoruldu, biraz daha kırıldı. Üçüncü ayrılığımızda yaptığım en büyük hatanın, seni aldattığımın pişmanlığı hâlâ içimde taze, derin bir yara gibi duruyor. O an, seni ne kadar incittiğimi düşündükçe kendimden nefret ettim. Ama bilmeni isterim ki, o hatamın gölgesinde bile, seni sevdiğimi hiçbir zaman kaybetmedim.
+
+Sonra başka sebeplerle yine yollarımız ayrıldı. İlişkimiz toksikti, evet… Bunu inkâr edemem. Ama tüm zorluklara, tüm acılara rağmen seni istedim; hâlâ da sadece seni istiyorum. Çünkü kalbimde başka birinin yeri yok.
+
+Ben senden başkasını sevemeyeceğim ama sen bir başkasını benden çok seveceksin.
+Biliyorum, belki o seni daha çok mutlu edecek. Bu düşünce canımı yakıyor ama bunu değiştiremem.
+
+Bir sefer mutluluğuna engel oldum, belki bu sefer olmayacağım.
+Canımı çok acıtıyor ama artık seni engellemek istemiyorum.
+Sadece senden bir ricam var: Lütfen seni üzmesine izin verme.
+Sen iyi birisin, güçlü birisin. Lütfen bir başkası olma.
+
+Ve şunu da bilmeni istiyorum…
+Bir gün bir derdin, bir sıkıntın, bir gözyaşın olursa…
+Bir arkadaş, bir sevgili, bir abi, bir kardeş ya da bir dost…
+Beni nasıl görmek istersen, ben orada olurum.
+Sadece “ihtiyacım var” de, yeter.
+Çünkü ben seni sadece sevmekle kalmadım, senin yanında olmayı da seçtim.
+
+Güzel kızım, eğer başka bir yer varsa orda görüşürüz belki bu sefer hiçbirşeyin içine etmeden. Yoksada , bitti diye üzülmedim diyemem ama yaşandı diye çok minnettarım seni tanımak benim cennetimdi . BAŞKA BİR EVRENDE EN GÜZEL HALİYLE GÖRÜŞMEK DİLEĞİYLE 
+
+Her ne olursa olsun, kalbimde senin için hep bir yer olacak.
+Seni sevmek, bazen bırakmayı öğrenmek demekmiş.
+Sana hoşçakal diyemem çünkü içimden çıkmıyorsun ki , gidesin .  Kalbimde hep sen varsın.
+SENİ ÇOK SEVİYORUM 
+KENDİNE CİCİ BAK MUTLU OLMAK İÇİN HEP Bİ BİŞEY BUL OTA BOKA MUTLU OL OLDUĞU KADARIYLA HAKKINDA HAYIRLSII OLSUN 🤍🥰🫶 
+Belki bugün değil belki 1,2 yıl değil ama bir gün affet beni sevgilim ; aşkımıza sahip çıkmadım diye . Affedilmesi çok zor ama affet sen helin . Affet beni güzel kızım kendi içinde.
+    </p>
+  </header>
+
+  <div class="gallery">
+
+    <div class="photo-block">
+      <img src="foto1.jpg" alt="Foto 1">
+      <div class="photo-text">
+İkimize mutlu bir son yazdım sevgilim. Yanımda durdun sessizce, burası sondu, başka bir yaşamdı sadece biz vardık. Bana baktın mavi ve telaşsız, sustuk. Başka bir yaşamda, başka bir mutlu son… Biz bunu hak etmiştik sevgilim.
+      </div>
+    </div>
+
+    <div class="photo-block">
+      <img src="foto2.jpg" alt="Foto 2">
+      <div class="photo-text">
+Özlemlerinle yıllarca yanarak  
+Sözüm ona sen böyle bir şey aradın  
+Duygularınsa çocuktu üç yaşında  
+Kaçıp kovalanmaktı heyecanların
+      </div>
+    </div>
+
+    <div class="photo-block">
+      <img src="foto3.jpg" alt="Foto 3">
+      <div class="photo-text">
+Al beni, götür kanatlarında bu gece  
+Uçurup diyar diyar sev beni sevilmediğim kadar  
+Unuttur yalnız yaşadığım her geceyi, öyle gel  
+Gör beni, bulup karanlıklarda sar biraz  
+Ki doğmasın sabahlar, al sevgim, hiç vermediğim kadar  
+Unuttur yalnız yaşadığım her geceyi öyle gel, gel
+      </div>
+    </div>
+
+    <div class="photo-block">
+      <img src="foto4.jpg" alt="Foto 4">
+      <div class="photo-text">
+Yaralarıma isim vermedim  
+Dönersin diye bekledim  
+Gel tuzlu dudaklarınla  
+Gel öp, acıt onları
+      </div>
+    </div>
+
+    <div class="photo-block">
+      <img src="foto5.jpg" alt="Foto 5">
+      <div class="photo-text">
+Geri dönmek inan işten değil  
+Hani var ya  
+Tutamazsın kendini  
+Bir ümitle ya olursa dersin hep,  
+Bile bile her şeyin bittiğini
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  (function(){
+    const PASSWORD = "282221"; // Şifre burada
+    const overlay = document.getElementById('pwOverlay');
+    const input = document.getElementById('pwInput');
+    const btn = document.getElementById('pwBtn');
+    const error = document.getElementById('pwError');
+    const content = document.getElementById('content');
+
+    // Eğer sessionStorage'da erişim daha önce verildiyse doğrudan aç
+    if (sessionStorage.getItem('helin_auth') === PASSWORD) {
+      overlay.style.display = 'none';
+      content.setAttribute('aria-hidden','false');
+    } else {
+      // overlay görünür, içerik gizli
+      overlay.style.display = 'flex';
+      content.setAttribute('aria-hidden','true');
+      input.focus();
+    }
+
+    function unlock(){
+      const val = (input.value || '').trim();
+      if(!val){
+        error.textContent = 'Lütfen şifreyi gir.';
+        return;
+      }
+      if(val === PASSWORD){
+        overlay.style.display = 'none';
+        content.setAttribute('aria-hidden','false');
+        sessionStorage.setItem('helin_auth', PASSWORD);
+        error.textContent = '';
+      } else {
+        error.textContent = 'Şifre yanlış. Tekrar dene.';
+        input.value = '';
+        input.focus();
+      }
+    }
+
+    btn.addEventListener('click', unlock);
+    input.addEventListener('keydown', function(e){
+      if(e.key === 'Enter') unlock();
+    });
+
+    // ESC ile iptal etme/temizleme
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Escape') { input.value=''; error.textContent=''; input.focus(); }
+    });
+  })();
+</script>
+
+</body>
+</html>
